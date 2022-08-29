@@ -19,4 +19,4 @@ Design: [UFO](https://cdn.discordapp.com/attachments/850245533838868480/95139909
 
 ## Authors
 
-Ernestas: [Github](hhttps://github.com/3rnis)
+Ernestas: [Github](https://github.com/3rnis)
