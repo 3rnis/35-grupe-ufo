@@ -7,13 +7,13 @@
     <title>UFO</title>
   </head>
   <body>
-    <main style="background-color: red; width: 60%; margin-left: 20%; margin-top: 10%;">
-      <div style="width: 30%; background-color: aqua; display: inline-block;">
-        <h1>404</h1>
-        <p>Page not found</p>
+    <main style="width: 60%; margin-left: 20%; margin-top: 10%; display: inline-block;">
+      <div style="width: 30%; float: left;">
+       <h1 style="color: blue; font-size: 100px;">404</h1>
+        <p style="color: grey; text-transform: uppercase; font-size: 30px;">Page not found</p>
         <a href="#">Go to home</a>
       </div>
-      <img src="./ufo.jpg" alt="Cia turetu buti nuotrauka" style="width: 60%; display: inline-block;">
+      <img src="./ufo.jpg" alt="Cia turetu buti nuotrauka" style="width: 60%; float: right;">
     </main>
   </body>
 </html>
@@ -37,5 +37,16 @@
     display: inline;          vos keletas - elementai krenta eilute, su galimybe dalimi persikelti i nauja eilute, jei netilpo
     display: none;            vos keletas - elementai nesimato/nerodomi
     display: inline-block;    vos keletas - elementai krenta eilute, bet jei visas netelpa, tai visas krenta i nauja eilute ir niekada nebuna platesnis nei tevinis elementas.
+
+    Priverstinis elementu nustumimas (horizontaliai) nurodyta kryptimi:
+
+    float: left;
+    float: right;
+
+    Paprastas (standartizuotas) budas kurti universalia struktura (Sventa Marija):
+
+    display: inline-block; (tevinis elementas)
+    width: 100%;
+    float: left;
 
 -->
